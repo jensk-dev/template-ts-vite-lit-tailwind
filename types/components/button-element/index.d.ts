@@ -9,5 +9,5 @@ export declare class ButtonElement extends TailwindElement {
     static styles: import("lit").CSSResult[];
     count: number;
     private clickHandler;
-    render(): import("lit").TemplateResult<1>;
+    render(): import("lit-html").TemplateResult<1>;
 }
