@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import {configDefaults, defineConfig} from 'vitest/config'
 
 /**
  * The below code configures the project in library mode.
@@ -26,5 +26,13 @@ import { defineConfig } from 'vite'
  */
 
 export default defineConfig({
-  build: {}
+  build: {},
+  test: {
+    globals: true,
+    environment: "happy-dom",
+    coverage: {
+      reporter: ['text', 'json', 'html'],
+    },
+    include: ["src/**/*?(.)spec.ts"]
+  },
 })

@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Cypress & Testing
+e2e/*
+!e2e/integration
+!e2e/fixtures
+
+coverage
