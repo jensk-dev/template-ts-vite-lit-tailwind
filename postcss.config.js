@@ -3,6 +3,8 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
     // minimize css in production
-    ...(process.env.NODE_ENV === 'production' ? { cssnano: { preset: ["default"] } } : {})
+    ...(process.env.NODE_ENV === "production"
+      ? { cssnano: { preset: ["default"] } }
+      : {}),
   },
-}
+};

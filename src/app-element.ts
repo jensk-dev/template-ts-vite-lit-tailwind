@@ -13,5 +13,5 @@ export class RootElement extends TailwindElement {
         <button-element></button-element>
       </div>
     `;
-  }  
+  }
 }

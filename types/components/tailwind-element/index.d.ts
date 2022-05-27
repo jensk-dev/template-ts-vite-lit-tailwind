@@ -1,4 +1,5 @@
 import { LitElement } from "lit";
+
 /**
  * tailwind.css is statically imported and thereby efficiently
  * exposed to all subclasses that require tailwind.
@@ -6,5 +7,5 @@ import { LitElement } from "lit";
  * required by any other component using tailwind-defined styles.
  */
 export declare class TailwindElement extends LitElement {
-    static styles: import("lit").CSSResult[];
+  static styles: import("lit").CSSResult[];
 }
