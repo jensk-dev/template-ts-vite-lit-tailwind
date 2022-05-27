@@ -22,7 +22,9 @@ export class ButtonElement extends TailwindElement {
 
   public render() {
     return html`
-      <button @click="${this.clickHandler}" class="text-slate-50 bg-gradient-to-r from-cyan-500 to-blue-500 border border-slate-50 rounded p-3">Welcome to Vite with Lit & Tailwind x${this.count}</button>
+      <button @click="${this.clickHandler}" class="px-4 py-2 font-semibold text-sm bg-blue-500 text-white rounded-md shadow-sm hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 ease-in-out duration-100">
+        Welcome to Vite with Lit & Tailwind (x${this.count})
+      </button>
     `;
   }
 }
