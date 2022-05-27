@@ -3,7 +3,8 @@ import {IWindow} from "happy-dom";
 
 // Import the element
 import "./index"
-import {ButtonElement} from "./index";
+// only import the type of button element so we don't import the file twice
+import type {ButtonElement} from "./index";
 
 // declare the global Window object to inherit from IWindow so the happyDom type is recognized on window
 declare global {
