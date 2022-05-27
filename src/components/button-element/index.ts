@@ -4,9 +4,9 @@ import { TailwindElement } from "../tailwind-element";
 import styleSheet from "./styles.css";
 
 /**
- * Index is a sub-class of Index,
+ * ButtonElement is a sub-class of TailwindElement,
  * thereby containing all classes that can be used from tailwind.
- * Futhermor, Index defines its own styles.css file which contains
+ * Futhermore, ButtonElement defines its own styles.css file which contains
  * the @apply syntax to bundle multiple tailwind css classes into one custom defined class.
  */
 @customElement("button-element")
