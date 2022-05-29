@@ -17,8 +17,8 @@ describe("Button Element Testing", () => {
       .shadow()
       .find("button")
       .then(button => {
-        expect(button.text()).to.equal(
-          "Welcome to Vite with Lit & Tailwind x3"
+        expect(button.text().trim()).to.equal(
+          "Welcome to Vite with Lit & Tailwind (x3)"
         );
       });
   });
