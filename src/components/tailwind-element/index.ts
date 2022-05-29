@@ -1,5 +1,5 @@
 import { LitElement, unsafeCSS } from "lit";
-import tailwind from "./tailwind.css";
+import tailwind from "./tailwind.css?inline";
 
 /**
  * tailwind.css is statically imported and thereby efficiently

@@ -1,7 +1,7 @@
 import { html, unsafeCSS } from "lit";
 import { customElement, state } from "lit/decorators.js";
 import { TailwindElement } from "../tailwind-element";
-import styleSheet from "./styles.css";
+import styleSheet from "./styles.css?inline";
 
 /**
  * ButtonElement is a sub-class of TailwindElement,
