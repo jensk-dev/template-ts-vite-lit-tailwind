@@ -1,7 +1,6 @@
-import { html, unsafeCSS } from "lit";
+import { html } from "lit";
 import { customElement, state } from "lit/decorators.js";
 import { TailwindElement } from "../tailwind-element";
-import styleSheet from "./styles.css?inline";
 
 /**
  * ButtonElement is a sub-class of TailwindElement,
@@ -11,8 +10,6 @@ import styleSheet from "./styles.css?inline";
  */
 @customElement("button-element")
 export class ButtonElement extends TailwindElement {
-  public static styles = [...TailwindElement.styles, unsafeCSS(styleSheet)];
-
   @state()
   public count: number = 0;
 

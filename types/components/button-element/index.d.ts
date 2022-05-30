@@ -6,7 +6,6 @@ import { TailwindElement } from "../tailwind-element";
  * the @apply syntax to bundle multiple tailwind css classes into one custom defined class.
  */
 export declare class ButtonElement extends TailwindElement {
-    static styles: import("lit").CSSResult[];
     count: number;
     render(): import("lit-html").TemplateResult<1>;
     private clickHandler;
