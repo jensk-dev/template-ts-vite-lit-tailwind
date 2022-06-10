@@ -1,9 +1,9 @@
 import { html, TemplateResult } from "lit";
 import { customElement } from "lit/decorators.js";
-import { TailwindElement } from "./components/tailwind-element";
+import { TailwindElement } from "./components/tailwind-element/tailwind-element";
 
 // asynchronously load all elements here for optimal bundling.
-import("./components/button-element");
+import("./components/button-element/button-element");
 
 @customElement("app-element")
 export class RootElement extends TailwindElement {

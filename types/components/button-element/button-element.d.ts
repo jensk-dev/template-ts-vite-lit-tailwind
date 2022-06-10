@@ -1,4 +1,4 @@
-import { TailwindElement } from "../tailwind-element";
+import { TailwindElement } from "../tailwind-element/tailwind-element";
 /**
  * ButtonElement is a sub-class of TailwindElement,
  * thereby containing all classes that can be used from tailwind.

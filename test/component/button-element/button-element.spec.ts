@@ -2,9 +2,9 @@ import { beforeEach, describe, expect, it } from "vitest";
 import { IWindow } from "happy-dom";
 
 // Import the element
-import "./index";
+import "../../../src/components/button-element/button-element";
 // only import the type of button element so we don't import the file twice
-import type { ButtonElement } from "./index";
+import type { ButtonElement } from "../../../src/components/button-element/button-element";
 
 // declare the global Window object to inherit from IWindow so the happyDom type is recognized on window
 declare global {

@@ -1,6 +1,6 @@
 import { html } from "lit";
 import { customElement, state } from "lit/decorators.js";
-import { TailwindElement } from "../tailwind-element";
+import { TailwindElement } from "../tailwind-element/tailwind-element";
 
 /**
  * ButtonElement is a sub-class of TailwindElement,

@@ -25,9 +25,6 @@
   "include": [
     "src/**/*.ts"
   ],
-  "exclude": [
-    "src/**/*spec.ts"
-  ],
   "references": [
     {
       "path": "./tsconfig.node.json"

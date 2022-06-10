@@ -1,8 +1,7 @@
 // Tests the button element of the dev server homepage.
 describe("Button Element Testing", () => {
   beforeEach(() => {
-    const baseUrl = "http://localhost:3000";
-    cy.visit(baseUrl);
+    cy.visit("/");
   });
 
   it("renders a button", () => {
