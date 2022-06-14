@@ -24,8 +24,8 @@ dist-ssr
 *.sw?
 
 # Cypress & Testing
-e2e/*
-!e2e/integration
-!e2e/fixtures
+cypress/e2e/downloads
+cypress/e2e/videos
+cypress/e2e/screenshots
 
 coverage
