@@ -2,3 +2,4 @@
 /*.config.ts
 /.prettierrc.js
 /.eslintrc.js
+/types/*
