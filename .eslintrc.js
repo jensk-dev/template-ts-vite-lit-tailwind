@@ -21,15 +21,6 @@ module.exports = {
     "no-plusplus": "off",
     "import/prefer-default-export": "off",
     "class-methods-use-this": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "never",
-        jsx: "never",
-        ts: "never",
-        tsx: "never",
-      },
-    ],
+    "import/extensions": "off"
   },
 };
