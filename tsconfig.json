@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "importsNotUsedAsValues": "error",
     "module": "esnext",
     "lib": [
       "es2017",

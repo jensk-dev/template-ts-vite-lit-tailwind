@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vitest";
-import { IWindow } from "happy-dom";
+import type { IWindow } from "happy-dom";
 
 // Import the element
 import "../../../src/components/button-element/button-element";

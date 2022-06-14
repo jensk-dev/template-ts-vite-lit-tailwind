@@ -21,6 +21,8 @@ module.exports = {
     "no-plusplus": "off",
     "import/prefer-default-export": "off",
     "class-methods-use-this": "off",
-    "import/extensions": "off"
+    "import/extensions": "off",
+    "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
+    "@typescript-eslint/consistent-type-exports": "error"
   },
 };

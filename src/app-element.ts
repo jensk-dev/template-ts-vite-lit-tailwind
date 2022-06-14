@@ -1,4 +1,5 @@
-import { html, TemplateResult } from "lit";
+import type { TemplateResult } from "lit";
+import { html } from "lit";
 import { customElement } from "lit/decorators.js";
 import { TailwindElement } from "./components/tailwind-element/tailwind-element";
 
