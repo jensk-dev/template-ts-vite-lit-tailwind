@@ -1,2 +1,4 @@
-*
-!./src/**/*.ts
+/*.config.js
+/*.config.ts
+/.prettierrc.js
+/.eslintrc.js
