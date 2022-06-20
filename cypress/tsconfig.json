@@ -2,15 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./e2e",
     "target": "es5",
-    "lib": [
-      "es5",
-      "dom"
-    ],
-    "types": [
-      "cypress"
-    ]
+    "lib": ["es5", "dom"],
+    "types": ["cypress"]
   },
-  "include": [
-    "e2e/**/*.e2e.ts"
-  ]
+  "include": ["e2e/**/*.e2e.ts"]
 }

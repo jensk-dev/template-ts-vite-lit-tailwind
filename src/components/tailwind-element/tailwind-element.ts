@@ -14,5 +14,10 @@ import preflight from "./preflight.css";
  * required by any other component using tailwind-defined styles.
  */
 export class TailwindElement extends LitElement {
-  public static styles = [unsafeCSS(preflight), unsafeCSS(components), unsafeCSS(utilities), unsafeCSS(screens)].filter(styles => styles.cssText !== ""); // set tailwind styles, prune unused ones
+  public static styles = [
+    unsafeCSS(preflight),
+    unsafeCSS(components),
+    unsafeCSS(utilities),
+    unsafeCSS(screens),
+  ].filter(styles => styles.cssText !== ""); // set tailwind styles, prune unused ones
 }

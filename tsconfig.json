@@ -2,11 +2,7 @@
   "compilerOptions": {
     "importsNotUsedAsValues": "error",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom",
-      "dom.iterable"
-    ],
+    "lib": ["es2017", "dom", "dom.iterable"],
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "./types",
@@ -23,10 +19,7 @@
     "useDefineForClassFields": false,
     "skipLibCheck": true
   },
-  "include": [
-    "src/**/*.ts",
-    "test/**/*.ts"
-  ],
+  "include": ["src/**/*.ts", "test/**/*.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"

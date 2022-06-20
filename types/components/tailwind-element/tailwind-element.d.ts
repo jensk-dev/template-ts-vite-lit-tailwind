@@ -6,5 +6,5 @@ import { LitElement } from "lit";
  * required by any other component using tailwind-defined styles.
  */
 export declare class TailwindElement extends LitElement {
-    static styles: import("lit").CSSResult[];
+  static styles: import("lit").CSSResult[];
 }

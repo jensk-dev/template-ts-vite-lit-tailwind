@@ -22,7 +22,10 @@ module.exports = {
     "import/prefer-default-export": "off",
     "class-methods-use-this": "off",
     "import/extensions": "off",
-    "@typescript-eslint/consistent-type-imports": ["error", { prefer: "type-imports" }],
-    "@typescript-eslint/consistent-type-exports": "error"
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { prefer: "type-imports" },
+    ],
+    "@typescript-eslint/consistent-type-exports": "error",
   },
 };
