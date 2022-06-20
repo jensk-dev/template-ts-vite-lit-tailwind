@@ -29,3 +29,5 @@ cypress/e2e/videos
 cypress/e2e/screenshots
 
 coverage
+
+types
