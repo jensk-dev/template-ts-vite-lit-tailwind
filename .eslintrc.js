@@ -16,7 +16,7 @@ module.exports = {
     sourceType: "module",
     project: ["./tsconfig.json", "./cypress/tsconfig.json"],
   },
-  plugins: ["@typescript-eslint", "tailwindcss"],
+  plugins: ["@typescript-eslint", "tailwindcss", "lit"],
   rules: {
     "no-plusplus": "off",
     "import/prefer-default-export": "off",
