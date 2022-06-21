@@ -3,6 +3,12 @@
     "importsNotUsedAsValues": "error",
     "module": "esnext",
     "lib": ["es2017", "dom", "dom.iterable"],
+    "plugins": [
+      {
+        "name": "ts-lit-plugin",
+        "strict": true
+      }
+    ],
     "declaration": true,
     "emitDeclarationOnly": true,
     "outDir": "./types",
