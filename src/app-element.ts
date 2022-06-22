@@ -1,7 +1,7 @@
-import type {TemplateResult} from "lit";
-import {html} from "lit";
-import {customElement} from "lit/decorators.js";
-import {TailwindElement} from "./boilerplate/tailwind-element/tailwind-element";
+import type { TemplateResult } from "lit";
+import { html } from "lit";
+import { customElement } from "lit/decorators.js";
+import { TailwindElement } from "./boilerplate/tailwind-element/tailwind-element";
 
 // dynamically import the button-element.ts for automatic rollup chunking
 // Web Components by nature are easily dynamically loaded, as the existing markup is upgraded

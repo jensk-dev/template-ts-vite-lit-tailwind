@@ -1,4 +1,4 @@
-import {LitElement, unsafeCSS} from "lit";
+import { LitElement, unsafeCSS } from "lit";
 // importing inline styles (indicated by the ?inline query parameter) ensure that
 // the css files are directly included into the
 // file and excluded from dynamic linking into the page.
