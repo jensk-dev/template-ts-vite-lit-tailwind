@@ -20,6 +20,7 @@
     "e2e:open": "cypress open --e2e",
     "e2e:run": "cypress run --e2e",
     "e2e:verify": "cypress verify",
+    "e2e:start": "concurrently --raw --kill-others --success \"all\" \"yarn dev\" \"yarn e2e:open\"",
     "analyze": "lit-analyzer --strict src/**/*.ts"
   },
   "dependencies": {
@@ -31,6 +32,7 @@
     "@typescript-eslint/parser": "^5.29.0",
     "autoprefixer": "^10.4.7",
     "c8": "^7.11.3",
+    "concurrently": "^7.2.2",
     "cssnano": "^5.1.12",
     "cypress": "^10.2.0",
     "eslint": "^8.18.0",
