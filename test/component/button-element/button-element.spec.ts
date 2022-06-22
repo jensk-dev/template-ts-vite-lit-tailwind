@@ -8,7 +8,7 @@ import type { ButtonElement } from "../../../src/components/button-element/butto
 
 // declare the global Window object to inherit from IWindow so the happyDom type is recognized on window
 declare global {
-  type Window = IWindow;
+  interface Window extends IWindow {}
 }
 
 describe("Button Element", async () => {
