@@ -16,7 +16,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
+    "cover": "vitest run --coverage",
     "e2e:open": "cypress open --e2e",
     "e2e:run": "cypress run --e2e",
     "e2e:verify": "cypress verify",
