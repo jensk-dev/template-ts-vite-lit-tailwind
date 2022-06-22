@@ -19,7 +19,8 @@
     "coverage": "vitest run --coverage",
     "e2e:open": "cypress open --e2e",
     "e2e:run": "cypress run --e2e",
-    "e2e:verify": "cypress verify"
+    "e2e:verify": "cypress verify",
+    "analyze": "lit-analyzer --strict src/**/*.ts"
   },
   "dependencies": {
     "lit": "^2.2.6"
@@ -40,6 +41,7 @@
     "eslint-plugin-lit": "^1.6.1",
     "eslint-plugin-tailwindcss": "^3.5.0",
     "happy-dom": "^5.3.1",
+    "lit-analyzer": "^2.0.0-pre.2",
     "postcss": "^8.4.14",
     "prettier": "2.7.1",
     "tailwindcss": "^3.1.4",
