@@ -4,3 +4,4 @@
 /.eslintrc.js
 /types/*
 /dist/*
+/coverage/*
