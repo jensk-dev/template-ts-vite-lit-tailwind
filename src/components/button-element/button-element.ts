@@ -1,15 +1,15 @@
-import { html } from "lit";
-import { customElement, state } from "lit/decorators.js";
-import { TailwindElement } from "../tailwind-element/tailwind-element";
+import {html} from "lit";
+import {customElement, state} from "lit/decorators.js";
+import {TailwindElement} from "../../boilerplate/tailwind-element/tailwind-element";
 
 /**
  * ButtonElement is a sub-class of TailwindElement,
- * thereby containing all classes that can be used from tailwind.
+ * thereby containing all css classes that can be used from tailwind.
  */
 @customElement("button-element")
 export class ButtonElement extends TailwindElement {
   @state()
-  public count: number = 0;
+  public count = 0;
 
   public render() {
     return html`

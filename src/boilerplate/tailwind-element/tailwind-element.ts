@@ -1,10 +1,15 @@
-import { LitElement, unsafeCSS } from "lit";
+import {LitElement, unsafeCSS} from "lit";
+// importing inline styles (indicated by the ?inline query parameter) ensure that
+// the css files are directly included into the
+// file and excluded from dynamic linking into the page.
+// All css that is imported is first processed using postcss
 import components from "./components.css?inline";
 import utilities from "./utilities.css?inline";
 import screens from "./screens.css?inline";
 
 // do not import this as inline, as it will break Tailwind's global css reset.
-// (This file will effectively be imported twice. Once as a standalone css file, once as a string used in the tailwind element)
+// (This file will effectively be imported twice. Once as a standalone css file bundled with the index.html,
+// once as a string used in the tailwind element)
 import preflight from "./preflight.css";
 
 /**
@@ -14,10 +19,11 @@ import preflight from "./preflight.css";
  * required by any other component using tailwind-defined styles.
  */
 export class TailwindElement extends LitElement {
+  // Add all tailwind components to the styles property.
   public static styles = [
     unsafeCSS(preflight),
     unsafeCSS(components),
     unsafeCSS(utilities),
     unsafeCSS(screens),
-  ].filter(styles => styles.cssText !== ""); // set tailwind styles, prune unused ones
+  ].filter(styles => styles.cssText !== ""); // filter out empty stylesets
 }
