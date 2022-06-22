@@ -7,7 +7,7 @@ import { TailwindElement } from "./components/tailwind-element/tailwind-element"
 import("./components/button-element/button-element");
 
 @customElement("app-element")
-export class RootElement extends TailwindElement {
+export class AppElement extends TailwindElement {
   protected render(): TemplateResult {
     return html`
       <div class="w-screen h-screen flex justify-center items-center">
