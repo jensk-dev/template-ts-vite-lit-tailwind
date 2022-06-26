@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-lit": "^1.6.1",
     "eslint-plugin-tailwindcss": "^3.5.0",
-    "happy-dom": "^5.3.1",
+    "happy-dom": "^5.3.2",
     "lit-analyzer": "^2.0.0-pre.2",
     "postcss": "^8.4.14",
     "prettier": "2.7.1",
