@@ -5,6 +5,7 @@ import type { IWindow } from "happy-dom";
 import "../../../src/components/button-element/button-element";
 // only import the type of button element so we don't import the file twice
 import type { ButtonElement } from "../../../src/components/button-element/button-element";
+import { html, render } from "lit";
 
 // declare the global Window object to inherit from IWindow so the happyDom type is recognized on window
 declare global {
@@ -14,7 +15,7 @@ declare global {
 describe("Button Element", async () => {
   beforeEach(async () => {
     // set the inner html element
-    document.body.innerHTML = "<button-element></button-element>";
+    render(html`<button-element></button-element>`, document.body);
     // wait for happyDom to initialize
     await window.happyDOM.whenAsyncComplete();
   });
