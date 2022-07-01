@@ -8,7 +8,14 @@ import { defineConfig } from "vitest/config";
  */
 
 export default defineConfig({
-  build: {},
+  build: {
+    sourcemap:true,
+    terserOptions: {
+      ecma: 2020,
+      module: true,
+    },
+    minify: "terser"
+  },
   test: {
     globals: true,
     environment: "happy-dom",

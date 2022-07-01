@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "importsNotUsedAsValues": "error",
-    "module": "esnext",
-    "lib": ["es2017", "dom", "dom.iterable"],
+    "module": "es2020",
+    "target": "es2019",
+    "lib": ["es2019", "dom", "dom.iterable"],
     "plugins": [
       {
         "name": "ts-lit-plugin",
@@ -10,6 +11,9 @@
       }
     ],
     "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "inlineSources": true,
     "emitDeclarationOnly": true,
     "outDir": "./types",
     "strict": true,
