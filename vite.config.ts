@@ -10,11 +10,7 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
   build: {
     sourcemap:true,
-    terserOptions: {
-      ecma: 2020,
-      module: true,
-    },
-    minify: "terser"
+    target: "es2020",
   },
   test: {
     globals: true,
