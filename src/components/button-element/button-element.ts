@@ -26,3 +26,9 @@ export class ButtonElement extends TailwindElement {
     this.count++;
   }
 }
+
+declare global {
+  interface HTMLElementTagNameMap {
+    "button-element": ButtonElement
+  }
+}
