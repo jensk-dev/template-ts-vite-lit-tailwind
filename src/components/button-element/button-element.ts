@@ -29,6 +29,6 @@ export class ButtonElement extends TailwindElement {
 
 declare global {
   interface HTMLElementTagNameMap {
-    "button-element": ButtonElement
+    "button-element": ButtonElement;
   }
 }
