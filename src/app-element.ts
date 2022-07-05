@@ -11,7 +11,7 @@ export class AppElement extends TailwindElement {
     // dynamically import the button-element.ts for automatic rollup chunking
     // Web Components by nature are easily dynamically loaded, as the existing markup is upgraded
     // once a new component is registered.
-    import("./components/button-element/button-element");
+    import("./components/button-element");
   }
 
   protected render(): TemplateResult {
