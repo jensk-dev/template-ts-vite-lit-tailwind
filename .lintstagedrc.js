@@ -1,4 +1,4 @@
 module.exports = {
-  "*.ts": ["npm run format", "npm run lint:fix"],
-  "!*.ts": "npm run format",
+  "*.ts": ["prettier -w --list-different", "eslint --fix"],
+  "!*.ts": "prettier -w --list-different",
 };
