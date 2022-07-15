@@ -1,0 +1,4 @@
+/types/*
+/dist/*
+/coverage/*
+/node_modules/*

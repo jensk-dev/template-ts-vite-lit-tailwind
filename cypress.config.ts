@@ -10,6 +10,6 @@ export default defineConfig({
     setupNodeEvents(on, config) {},
     supportFile: false,
     specPattern: "cypress/e2e/**/*.e2e.ts",
-    baseUrl: "http://localhost:4173/",
+    baseUrl: "http://localhost:5173/",
   },
 });
